@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import AOS from 'aos';
 import Header from "../components/Header/Header";
 import Hero from "../components/Hero/Hero";
+import AboutUs from "../components/AboutUs/AboutUs";
 
 
 export default function Root() {
@@ -14,8 +15,8 @@ export default function Root() {
       <Header />
       <Hero />
       <main id="main">
-        <div>Clients</div>
-        <div>About Us</div>
+        {/* <div>Clients</div> */}
+        <AboutUs />
         <div>Why us</div>
         <div>Skills</div>
         <div>Services</div>
