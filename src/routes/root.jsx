@@ -3,6 +3,7 @@ import AOS from 'aos';
 import Header from "../components/Header/Header";
 import Hero from "../components/Hero/Hero";
 import AboutUs from "../components/AboutUs/AboutUs";
+import WhyUs from "../components/WhyUs/WhyUs";
 
 
 export default function Root() {
@@ -17,7 +18,7 @@ export default function Root() {
       <main id="main">
         {/* <div>Clients</div> */}
         <AboutUs />
-        <div>Why us</div>
+        <WhyUs />
         <div>Skills</div>
         <div>Services</div>
         <div>Portfolio</div>
